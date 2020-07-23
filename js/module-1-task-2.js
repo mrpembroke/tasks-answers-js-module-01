@@ -1,10 +1,8 @@
 console.log('--- Task 2 ---');
 
-let invoice = 100;
+const invoice = 100;
 const stock = 100;
 
-// Write code under this line
-// const message1 = 'На складе недостаточно товаров!';
 const message =
 	// invoice === stock || invoice === 50
 	invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно товаров!';
